@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+    <style>
+        #login {
+            margin-left: 10%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #6abadeba;
+            font-family: 'Arial';
+        }
+
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            margin: 20 0 0 450px;
+            padding: 80px;
+            background: #23463f;
+            border-radius: 15px;
+
+        }
+
+        h2 {
+            text-align: center;
+            color: #277582;
+            padding: 20px;
+        }
+
+        label {
+            color: #08ffd1;
+            font-size: 17px;
+        }
+
+        #fullname {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        #password {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+
+        }
+
+        #username {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        #log {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            color: blue;
+
+
+        }
+
+        span {
+            color: white;
+            font-size: 17px;
+        }
+
+        a {
+            float: right;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+        <form id="login" method="post" action="/">
+            <label><b>Full Name
+                </b>
+            </label>
+            <input type="text" name="fullname" id="fullname" placeholder="Fullname">
+            <br><br>
+            <label><b>User Name
+                </b>
+            </label>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <br><br>
+            <label><b>Password
+                </b>
+            </label>
+            <input type="Password" name="password" id="password" placeholder="Password">
+            <br><br>
+            <button
+                style="margin-left: 30%; width: 100px; height: 40px; border-radius: 10px; background-color: skyblue; color: black;">Signup</button>
+        </form>
+    </div>
+</body>
+
+</html>
